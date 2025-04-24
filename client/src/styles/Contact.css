@@ -1,0 +1,41 @@
+/* Container for the map */
+.map-container {
+    position: relative;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Styling the contact form */
+  .contact-form-container {
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+    margin-top: -50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  
+  /* Flag effect: creating a curved effect on the left side of the contact form */
+  .contact-form-container::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 60px;
+    background-color: #134377;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  
+  /* Optional: add a shadow around the map and form */
+  .map-container iframe {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,146 @@
+html, body {
+    overflow-x: hidden;
+  }
+  
+.banner-top {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .wave-container {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    line-height: 0;
+    z-index: 1000;
+  }
+  
+  .wave-container svg {
+    display: block;
+    width: 100%;
+    height: 100px;
+  }
+
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* 50% black overlay */
+    z-index: 1; /* Keep the overlay behind the text */
+  }
+
+  * {
+    font-family: 'Outfit', sans-serif;
+  }
+
+
+  /* TestimonialSection.css */
+
+.container-test {
+    background-image: url('../assets/images/photo-1688701108480-0db760644684.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .container-test .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black for the dark overlay */
+    z-index: 1; /* Ensure the overlay is above the background image but below the content */
+  }
+  
+  .container-test .testimonial-content {
+    z-index: 2; /* Ensure the content is above the overlay */
+  }
+  
+
+  .btn-primary{
+    background-color: #134377 !important;
+    border-color: #134377 !important;
+  }
+
+  
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* 50% black overlay */
+    z-index: 1; /* Keep the overlay behind the text */
+  }
+
+
+  .banner-top {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  
+.banner-top-about{
+    background-image: url('../assets/images/photo-1688701108480-0db760644684.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  .banner-txt h1{
+    font-size: 56px !important;
+    font-weight: 500;
+  }
+  
+  .banner-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Optional: depends on your background */
+    z-index: 2;
+  }
+  
+  .banner-txt h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .banner-txt h3 {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    opacity: 0.8;
+    font-weight: 500;
+  }
+  
+  .f_16{
+    font-size: 16px !important;
+  }
+  
+  .font-semibold{
+    font-weight: 600 !important;
+  }
+  
+  
+  .a7{
+    color: #7a7a7a !important;
+  }
+  
