@@ -1,6 +1,9 @@
-import { Link } from 'react-router-dom';
-import img from '../assets/images/photo-1536094627107-abf98dedaa8f.jpg'
+import { Link, useLocation } from 'react-router-dom';
+import img from '../assets/images/photo-1536094627107-abf98dedaa8f.jpg';
+
 const AboutUsSection = () => {
+  const location = useLocation();
+
   return (
     <div className="container py-5">
       <div className="row align-items-center">
@@ -10,6 +13,7 @@ const AboutUsSection = () => {
             className="img-fluid rounded"
             width="600"
             height="536"
+            alt="SDEI is a leading provider of commercial scrap dealing and demolition services, offering a comprehensive range of solutions tailored to meet the specific needs of our clients."
           />
         </div>
         <div className="col-md-6">
@@ -33,7 +37,10 @@ const AboutUsSection = () => {
             our clients’ expectations by prioritizing safety, quality, and customer satisfaction in
             every project we undertake.
           </p>
-          <Link to="/about" className="btn btn-primary">Learn More</Link>
+          {/* Conditionally render the button if not on the /about page */}
+          {location.pathname !== '/about' && (
+            <Link to="/about" className="btn btn-primary">Learn more about our company</Link>
+          )}
         </div>
       </div>
     </div>

@@ -87,7 +87,7 @@ const Carousel = () => {
                                 <p className="carousel-text-desc" style={{ zIndex: 2, color: 'lightgray', fontWeight: 600 }}>{slide.desc}</p>
                                 <Link to='/contact' style={{textDecoration:'none',color:'white'}}>  <div className="carousel-text-button btn rounded-pill text-light" style={{ border: '2px solid #134377', zIndex: 2, padding: '12px 40px' }}>
                               
-                                   Get Started 
+                                Get in touch with SDEI
                                 </div></Link>
                             </div>
                         </div>

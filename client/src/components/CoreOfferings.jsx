@@ -48,7 +48,7 @@ const CoreOfferings = () => {
                 <h4 className="card-title">{item.title}</h4>
                 <p className="card-text">{item.desc}</p>
                 <Link to="/contact" className="btn btn-primary mt-auto">
-                  Contact us
+                Contact SDEI for Professional Demolition Solutions and Scrap Material Handling
                 </Link>
               </div>
             </div>
