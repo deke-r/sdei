@@ -38,8 +38,8 @@ const AboutUsSection = () => {
             every project we undertake.
           </p>
           {/* Conditionally render the button if not on the /about page */}
-          {location.pathname !== '/about' && (
-            <Link to="/about" className="btn btn-primary">Learn more about our company</Link>
+          {location.pathname !== '/about-sdei-commercial-scrap-dealers-demolition-experts-delhi-ncr-all-over-india' && (
+            <Link to="/about-sdei-commercial-scrap-dealers-demolition-experts-delhi-ncr-all-over-india" className="btn btn-primary">Learn more about our company</Link>
           )}
         </div>
       </div>

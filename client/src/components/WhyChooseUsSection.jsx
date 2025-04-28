@@ -41,7 +41,7 @@ const WhyChooseUsSection = () => {
               undertake. With a commitment to excellence, we guarantee minimal disruption and maximum
               satisfaction. Trust us for seamless services tailored to your specific requirements.
             </p>
-            <Link to="/contact" className="btn btn-primary">Learn more about our company</Link>
+            <Link to="/contact-top-demolition-scrap-dealers-decommissioning-company-delhi-ncr-all-over-india" className="btn btn-primary">Learn more about our company</Link>
           </div>
         </div>
       </div>

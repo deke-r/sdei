@@ -27,9 +27,9 @@ const Navbar = () => {
             <li className="nav-item"><Link to='/' className="nav-link">HOME</Link></li>
 
            
-            <li className="nav-item"><Link to='/about' className="nav-link">About</Link></li>
-            <li className="nav-item"><Link to='/services' className="nav-link">SERVICES</Link></li>
-            <li className="nav-item"><Link to='/contact' className="nav-link">CONTACT</Link></li>
+            <li className="nav-item"><Link to='/about-sdei-commercial-scrap-dealers-demolition-experts-delhi-ncr-all-over-india' className="nav-link">About</Link></li>
+            <li className="nav-item"><Link to='/services-building-demolition-industrial-scrap-dealing-facility-decommissioning-delhi-ncr-all-over-india' className="nav-link">SERVICES</Link></li>
+            <li className="nav-item"><Link to='/contact-top-demolition-scrap-dealers-decommissioning-company-delhi-ncr-all-over-india' className="nav-link">CONTACT</Link></li>
           </ul>
         </div>
       </div>

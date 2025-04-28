@@ -144,3 +144,12 @@ html, body {
     color: #7a7a7a !important;
   }
   
+
+  .navbar-toggler{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .navbar-toggler-icon{
+    background-image: url('../assets/images/menuDark.svg') !important;
+  }

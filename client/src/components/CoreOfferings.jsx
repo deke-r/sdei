@@ -47,7 +47,7 @@ const CoreOfferings = () => {
               <div className="card-body d-flex flex-column">
                 <h4 className="card-title">{item.title}</h4>
                 <p className="card-text">{item.desc}</p>
-                <Link to="/contact" className="btn btn-primary mt-auto">
+                <Link to="/contact-top-demolition-scrap-dealers-decommissioning-company-delhi-ncr-all-over-india" className="btn btn-primary mt-auto">
                 Contact SDEI for Professional Demolition Solutions and Scrap Material Handling
                 </Link>
               </div>

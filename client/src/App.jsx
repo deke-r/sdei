@@ -10,12 +10,22 @@ const App = () => {
     <>
  <BrowserRouter>
  <ScrollToTop/>
-    <Routes>
-      <Route path="/" element={< Home/>} />
-      <Route path="/about" element={< About/>} />
-      <Route path="/services" element={< Services/>} />
-      <Route path="/contact" element={< ContactUs/>} />
-    </Routes>
+ <Routes>
+  <Route path="/" element={<Home />} />
+  <Route 
+    path="/about-sdei-commercial-scrap-dealers-demolition-experts-delhi-ncr-all-over-india" 
+    element={<About />} 
+  />
+  <Route 
+    path="/services-building-demolition-industrial-scrap-dealing-facility-decommissioning-delhi-ncr-all-over-india" 
+    element={<Services />} 
+  />
+  <Route 
+    path="/contact-top-demolition-scrap-dealers-decommissioning-company-delhi-ncr-all-over-india" 
+    element={<ContactUs />} 
+  />
+</Routes>
+
     <FooterSection/>
   </BrowserRouter>
     

@@ -63,7 +63,7 @@ const CoreOfferingsServices = () => {
                 <span className="text-primary fw-bold">{item.prefix}</span>
                 <h3 className="fw-bold mt-2">{item.title}</h3>
                 <p className="text-muted">{item.description}</p>
-                <Link to="/contact" className="btn btn-primary">
+                <Link to="/contact-top-demolition-scrap-dealers-decommissioning-company-delhi-ncr-all-over-india" className="btn btn-primary">
                   Get in Touch with us
                 </Link>
               </div>
