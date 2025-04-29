@@ -5,12 +5,14 @@ import FooterSection from "./components/FooterSection";
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
 import ScrollToTop from "./ScrollToTop";
+import TawkToWidget from "./TawkToWidget";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
         <ScrollToTop />
+        <TawkToWidget/>
         <Routes>
           <Route path="/" element={<Home />} />
           
