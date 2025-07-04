@@ -42,11 +42,11 @@ router.get('/', (req, res) => {
       const recipients = [
         'senseprojects@yahoo.com',
         'senseprojects2019@gmail.com',
-        'info@senseprojects.in'
+         'info@sdei.in'
     ];
   
       const mailOptions = {
-        from: process.env.MAILID,
+        from: `"SDEI" <${process.env.MAILID}>`,
         to: recipients,
         subject: 'New Contact Form Submission',
         html: `

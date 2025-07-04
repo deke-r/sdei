@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import img from '../assets/images/dirty-dumped-objects-arrangement-scaled.jpg';
 import img2 from '../assets/images/output_image.jpg';
 import img3 from '../assets/images/warehouse-decom-liquidation-7-1170x470_LE_auto_x2.jpg';
-
+import img4 from '../assets/images/concept-person-suffering-from-cybersickness-technology-addiction (1).webp'
 const coreOfferings = [
   {
     title: 'Scrap Dealing',
@@ -13,6 +13,12 @@ const coreOfferings = [
     title: 'Demolition Services',
     img: img2,
     desc: 'Experience top-notch industrial, commercial, or residential buildings demolition services backed by cutting-edge technology and skilled professionals. We deliver safe and efficient demolition solutions. Our expert team ensures compliance with regulations while maximizing sustainability. Contact us now for seamless demolition services tailored to your needs.',
+  },
+  {
+    title: "E-Waste Services",
+    desc:
+      "We offer responsible and efficient e-waste collection, segregation, and recycling services, ensuring safe disposal of electronic waste in compliance with environmental regulations and sustainability standards.",
+    img: img4
   },
   {
     title: 'Facility Decommissioning',
@@ -34,7 +40,7 @@ const CoreOfferings = () => {
 
       <div className="row">
         {coreOfferings.map((item, index) => (
-          <div className="col-md-4 mb-4 d-flex" key={index}>
+          <div className="col-md-6 mb-4 d-flex" key={index}>
             <div className="card h-100 w-100 d-flex flex-column">
               <div style={{ height: '200px', overflow: 'hidden' }}>
                 <img

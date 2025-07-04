@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import img from '../assets/images/photo-1650212603995-df1df24e01dc.jpg'
 import img2 from '../assets/images/photo-1586335925967-cb6bea91856c.jpg'
 import img3 from '../assets/images/photo-1536094627107-abf98dedaa8f.jpg'
-
+import img4 from '../assets/images/concept-person-suffering-from-cybersickness-technology-addiction (1).webp'
 const offerings = [
   {
     id: 1,
@@ -22,10 +22,19 @@ const offerings = [
     image:
       img2
   },
+{
+  id: 3,
+  title: "E-Waste Services",
+  prefix: "03",
+  description:
+    "We offer responsible and efficient e-waste collection, segregation, and recycling services, ensuring safe disposal of electronic waste in compliance with environmental regulations and sustainability standards.",
+  image: img4
+}
+,
   {
-    id: 3,
+    id: 4,
     title: "Facility Decommissioning",
-    prefix: "03",
+    prefix: "04",
     description:
       "Streamline your facility decommissioning process with our expert services. From industrial plants to commercial spaces, we provide comprehensive solutions tailored to your needs. Our efficient approach ensures minimal downtime and maximum environmental responsibility.",
     image:
